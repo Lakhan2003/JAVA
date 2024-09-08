@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class FunctionsVoteEligible {
-    public static boolean getsVoteEligible(int age) { // boolean kyuki return m true false krr rhe h
+    public static boolean getsVoteEligible(int age) { 
         if (age > 18) {
             return true;
         }
