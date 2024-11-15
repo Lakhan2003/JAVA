@@ -3,7 +3,7 @@ import java.util.*;
 public class Matries2D {
     public static void search(int matrix[][], int key) {
         for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[0].length; j++) {
+            for (int j = 0; j < matrix[i].length; j++) {
                 if (matrix[i][j] == key) {
                     System.out.println("found at cell ( " + i + "," + j + " )");
                 }
